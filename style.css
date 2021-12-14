@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+body {
+    height: 100vh;
+    background-image: url(assets/fire.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo {
+    margin-left: 10em;
+    width: 20em;
+    height: 7em;
+    background-color: blue;
+}
+.logo-img {
+    background-color: greenyellow;
+    height: 5em;
+    margin-top: 1em;
+}
+.logo p {
+    width: 12em;
+    background-color: pink;
+    margin-left: 5em;
+    position: relative;
+    bottom: 3em;
+}
+nav {
+    margin-left: 40em;
+    width: 50%;
+    background-color: rgb(126, 94, 52);
+    position: relative;
+    bottom: 3.5em;
+}
+ul {
+    margin-left: 5em;
+    width: 80%;
+    background-color:lawngreen;
+    text-align: center;
+}
+li {
+    margin: 1em;
+    width: 20em;
+    background-color: hotpink;
+    display: inline;
+}
+main {
+    background-color: lemonchiffon;
+    width: 50vw;
+    height: 78.5vh;
+    background-image: url(assets/thewitcher.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
