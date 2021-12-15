@@ -16,16 +16,13 @@ body {
     margin-left: 10em;
     width: 20em;
     height: 7em;
-    background-color: blue;
 }
 .logo-img {
-    background-color: greenyellow;
     height: 5em;
     margin-top: 1em;
 }
 .logo p {
     width: 12em;
-    background-color: pink;
     margin-left: 5em;
     position: relative;
     bottom: 3em;
@@ -33,28 +30,39 @@ body {
 nav {
     margin-left: 40em;
     width: 50%;
-    background-color: rgb(126, 94, 52);
     position: relative;
     bottom: 3.5em;
 }
 ul {
     margin-left: 5em;
     width: 80%;
-    background-color:lawngreen;
     text-align: center;
 }
 li {
-    margin: 1em;
-    width: 20em;
-    background-color: hotpink;
+    margin: 0.5em;
     display: inline;
 }
-main {
-    background-color: lemonchiffon;
-    width: 50vw;
+li:hover {
+    cursor: pointer;
+    font-weight: 900;
+}
+main{
     height: 78.5vh;
     background-image: url(assets/thewitcher.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+.logo-button {
+    margin-left: 32em;
+    padding-top: 12em;
+    width: 20vw;
+}
+.logo-the-witcher {
+    padding-left: 1em;
+    width: 25vw;
+}
+.button-watch-now {
+    padding-left: 5em;
+    width: 20vw;
 }
